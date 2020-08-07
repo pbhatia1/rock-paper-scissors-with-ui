@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div id="roundCount" class="rounds">
+        <h2>Round 0</h2>
+    </div>
+    <div id="score" class="scores">
+        <div id="playerScore">
+            <h3>Player: 0</h3>
+        </div>
+        <div id="cpuScore">
+            <h3>Computer: 0</h3>
+        </div>
+    </div>
+    <h2>Make your move!</h2>
+    <div class="buttons">
+        <button id="Rock" class="button" alt="Rock">Rock</button>
+        <button id="Paper" class="button" alt="Paper">Paper</button>
+        <button id="Scissors" class="button" alt="Scissors">Scissors</button>
+    </div>
+    <div class="output">
+        <div id="result">
+            <h2></h2>
+            <p></p>
+        </div>
+    </div>
+    <div id="summary" class="modal">
+        <div class="modal-content">
+            <h1 id="gameOver"></h1>
+            <div id="finalScore">
+                <h2></h2>
+                <p></p>
+                <h2></h2>
+                <p></p>
+            </div>
+            <div id="winOrLose">
+                <h1></h1>
+            </div>
+            <button id="newGame" class="restartBtn" alt="Restart">New Game</button>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
